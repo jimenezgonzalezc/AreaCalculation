@@ -1,0 +1,11 @@
+Internacionalización en android
+Para el desarrollo de aplicaciones android con multiples idiomas se pude hacer utilizando diferentes archivos strings.xml
+por ejemplo:
+string-en para ingles
+string-es para español
+En estos archivos se almacenan las constantes de string que se utilizaran en el proyecto, con el fin de tener todos los mensajes que se van a mostrar en la aplicacion
+Se puden hacer tantas implementaciones de idiomas como nesecitemos, un archivo string por cada idioma
+Tambien se puede especificar mas el idioma creando mas archivos, por ejemplo:
+string-es-ES para español España
+string-es-CR para español Costa Rica
+La utilizacion de estos archivos funciona siempre y cuando en los layout se haga referencia a estas constantes
